@@ -6,33 +6,33 @@ let tableArea = document.querySelector("#tableArea");
 
 
 function print(){
-    let number = document.querySelector("#data__number");
+let number = document.querySelector("#data__number");
 let abbreviation = document.querySelector("#data__abbreviation");
 let profesor = document.querySelector("#data__profesor");
 let link = document.querySelector("#data__link");
 let category = document.querySelector("#data__category");
 
 
-
-
-    number = number.value;
-    abbreviation = abbreviation.value;
-    profesor = profesor.value;
-    link = link.value;
-    category= category.value;
-
     printArea.value += 
 
 `		<tr>
 			<td style="padding: 5px; text-align: justify;">
-                                ${number}</td>
+                                ${number.value}</td>
 			<td style="padding: 5px; text-align: justify;">
-				<a href="${link}">${abbreviation} ${profesor}</a></td>
+				<a href="${link.value}">${abbreviation.value} ${profesor.value}</a></td>
 			<td style="padding: 5px; text-align: justify;">
-                    ${category}</td>
+                    ${category.value}</td>
 		</tr>
 `
     tableArea.innerHTML = printArea.value;
+
+
+    number.value = "";
+    abbreviation.value = "";
+    profesor.value = "";
+    link.value = "";
+    category.value = "";
+
 }
 
 
