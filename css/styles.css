@@ -1,0 +1,79 @@
+/* --START--BOX-SIZING AND REM CONFIG-- */
+html {
+    font-size: 137.5%; /* 1rem=22px */
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+@media (max-width: 920px) {
+    html {
+        font-size: 125%; /* 1rem=20px */
+        }
+}
+
+@media (max-width: 480px) {
+    html {
+    font-size: 112.5%; /* 1rem=18px */
+    }
+}
+
+body {
+    font-size: 1rem;
+    width: 90%;
+    margin: auto;
+}
+/* --END--BOX-SIZING AND REM CONFIG-- */
+
+/* estilos basicos */
+
+
+
+td {
+    border: thin solid black;
+    width: auto;
+}
+
+/* DATA grid */
+.data {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+
+    margin: auto;
+}
+
+@media (max-width: 920px) {
+    .data {
+    grid-template-columns: 1fr 1fr;
+    }
+}
+/* inputs */
+.data__input{
+    width: 100%;
+}
+.input--number {
+
+}
+
+.input--abbreviation {
+    width: 100%;
+}
+
+.input--profesor{
+    width: 100%;
+}
+
+.print {
+
+    margin: auto;
+}
+.printArea {
+    width: 100%;
+}
+
+.data__button {
+    margin: 1rem 0rem;
+}
