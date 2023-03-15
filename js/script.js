@@ -28,7 +28,6 @@ let category = document.querySelector("#data__category");
 
 
     number.value = "";
-    abbreviation.value = "";
     profesor.value = "";
     link.value = "";
     category.value = "";
