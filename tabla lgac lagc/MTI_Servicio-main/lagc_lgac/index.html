@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>LAGC LGAC</title>
+</head>
+<body>
+<h1>LAGC & LGAC TABLE PRINTER</h1>
+<h2>PRINT EXAMPLE</h2>
+<p>Esta tabla se actualiza al dar clic en el boton, y su contenido es el mismo que en el texto de abajo, por lo cual si cometes un error y decides borrar alguna TableRow, la tabla se actualizará al hacer clic en el boton ;)</p>
+<table class="tabla" style="width: auto; border: thin solid black; margin: 1rem 0rem;">
+	<tbody id="tableArea">
+<tr>
+    <td style="padding: 5px; text-align: justify;">
+        1</td>
+    <td style="padding: 5px; text-align: justify;">
+        <a href="https://mti.cucea.udg.mx/?q=dr-jose-antonio-orizaga-trejo#overlay-context=hugo-enrique-torres-ruvalcaba%3Fq%3Dhugo-enrique-torres-ruvalcaba">Dr. José Antonio Orizaga Trejo</a></td>
+    <td style="padding: 5px; text-align: justify;">
+        Profesor Investigador Asociado "C"</td>
+</tr>
+
+
+</tbody>
+</table>
+<section class="data">
+    <div>
+        <label for="data__number">Numero:</label>
+        <input class="data__input" type="text" placeholder="num" id="data__number" autofocus>
+    </div>
+    <!-- <div>
+        <label for="data__abbreviation">Abreviatura:</label>
+        <input class="data__input" type="text" placeholder="Sr./Sra." id="data__abbreviation"
+            autofocus>
+    </div> -->
+    <div>
+        <label for="data__profesor">Profesor:</label>
+        <input class="data__input" type="text" placeholder="Gómez Pérez Carlos Pedro"
+            id="data__profesor" autofocus>
+    </div>
+    <div>
+        <label for="data__link">Link:</label>
+        <input class="data__input" type="text" placeholder="https://mti.cucea.udg.mx/" id="data__link" autofocus>
+    </div>
+    <div>
+        <label for="data__category">Categoría:</label>
+        <input class="data__input" type="text" placeholder='Profesor Titular "A"' id="data__category" autofocus>
+    </div>
+    <div>
+        <button class="data__button" id="data__button">Generar</button>
+    </div>
+</section>
+<section class="print">
+    <textarea class="printArea" name="printArea" id="printArea" cols="30" rows="10">
+
+    </textarea>
+
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>
