@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>LAGC LGAC</title>
+</head>
+<body>
+<h1>LAGC & LGAC TABLE PRINTER</h1>
+<h2>PRINT EXAMPLE</h2>
+<p>Esta tabla se actualiza al dar clic en el boton, y su contenido es el mismo que en el texto de abajo, por lo cual si cometes un error y decides borrar alguna TableRow, la tabla se actualizará al hacer clic en el boton ;)</p>
+
+<div style="width: 90%; margin: 1rem auto; gap: 1rem; display: flex; flex-wrap: wrap;">
+    <div id="cardArea" style="margin: auto; padding: 1rem; border-radius: 8px; background-color: rgba(24,52,92,0.1); flex: 1 0 320px;">
+        <div style="width: 60%; height: auto; margin: auto;">
+            <img src="https://mti.cucea.udg.mx/sites/default/files/adjuntos/orizaga.png" style="width: 100%; height: auto; margin: auto; border-radius: 8px;" />
+        </div>
+            <h4 style="font-size: 1.5rem;">Contacto</h4>
+            <ul style="margin: auto;">
+                <li>jose.orizaga@academicos.udg.mx</li>
+                <li><a href="https://www.linkedin.com/in/phdit-jaot-27900715/">LinkedIn</a></li>
+                <li><a href="https://orcid.org/0000-0001-5649-5514">ORCID</a></li>
+                <li>IEEE Miembro: 80390636 </li>
+            </ul>
+
+            <h4 style="font-size: 1.5rem;">Habilidades</h4>
+            <ul style="margin: auto;">
+                <li>Cloud Computing</li>
+                <li>Infraestructure as a Service</li>
+                <li>Security Systems</li>
+                <li>Distributed Systems</li>
+                <li>AI applied to Networks and Telecommunications</li>
+            </ul>
+    </div>
+
+    <div style="width: 100%; height: auto; flex: 1 0 430px;">
+    </div>
+</div>
+<section class="data">
+    <div>
+        <label for="data__profilePic">Foto de perfil:</label>
+        <input class="data__input" type="text" placeholder="https://mti.cucea.udg.mx/sites/default/files/adjuntos/orizaga.png" id="data__profilePic" autofocus>
+    </div>
+    <!-- <div>
+        <label for="data__abbreviation">Abreviatura:</label>
+        <input class="data__input" type="text" placeholder="Sr./Sra." id="data__abbreviation"
+            autofocus>
+    </div> -->
+    <div>
+        <label for="data__contactLiText">Contacto:</label>
+        <input class="data__input" type="text" placeholder="Likedin"
+            id="data__contactLiText" autofocus>
+    </div>
+    <div>
+        <label for="data__contactLilink">Link:</label>
+        <input class="data__input" type="text" placeholder="https://www.linkedin.com/in/vinsmake/" id="data__contactLilink" autofocus>
+    </div>
+    <div>
+        <label for="data__habilidadesLi">Habilidades:</label>
+        <input class="data__input" type="text" placeholder='Fullstack development' id="data__habilidadesLi" autofocus>
+    </div>
+    <div>
+        <button class="data__button" id="data__button">Generar</button>
+    </div>
+</section>
+<section class="print">
+    <textarea class="printArea" name="printArea" id="printArea" cols="30" rows="10">
+
+    </textarea>
+
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>
