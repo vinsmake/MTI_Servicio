@@ -50,7 +50,7 @@ td {
 
     margin: auto;
 }
-.printArea {
+.printArea, .printAreaExp {
     width: 100%;
 }
 
@@ -71,6 +71,46 @@ td {
 
 .b {
     background-color:  #b2ffff;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.sectiona {
+    margin-bottom: 20rem;
+}
+
+.la {
+    background-color: #8b06f5;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.lb {
+    background-color: #b969f9;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.lc {
+    background-color: #e7cdfd;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.ra {
+    background-color: #ff4040;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.rb {
+    background-color: #ff6666;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.rc {
+    background-color: #ff9f9f;
     padding: 1rem;
     border-radius: 8px;
 }
