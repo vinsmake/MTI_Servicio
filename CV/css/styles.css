@@ -19,7 +19,7 @@ td {
 /* DATA grid */
 .data {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     gap: 1rem;
 
     margin: auto;
@@ -56,4 +56,21 @@ td {
 
 .data__button {
     margin: 1rem 0rem;
+}
+
+.input {
+    margin: 1rem 0;
+
+}
+
+.a {
+    background-color: #ff9aff;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.b {
+    background-color:  #b2ffff;
+    padding: 1rem;
+    border-radius: 8px;
 }
