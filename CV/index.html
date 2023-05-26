@@ -7,131 +7,259 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>LAGC LGAC</title>
+    <title>MTI CV PRINTER</title>
 </head>
 
 <body>
     <h1>CV PRINTER</h1>
     <h2>PRINT EXAMPLE</h2>
-    <p>Este CV se actualiza al dar clic en el boton, y su contenido es el mismo que en el texto de abajo, por lo cual si
-        cometes un error y decides borrar alguna TableRow, la tabla se actualizará al hacer clic en el boton y agregar
-        otra cosa ;)</p>
-    <div id="cvArea">
-        <div style="width: 90%; margin: 1rem auto; gap: 1rem; display: flex; flex-wrap: wrap;">
-            <div
-                style="margin: auto; padding: 1rem; border-radius: 8px; background-color: rgba(24,52,92,0.1); flex: 1 0 320px; box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.50);">
-                <div style="width: 60%; height: auto; margin: auto;">
-                    <img src="https://mti.cucea.udg.mx/sites/default/files/adjuntos/orizaga.png"
-                        style="width: 100%; height: auto; margin: auto; border-radius: 8px;" />
+    <p>Este CV se actualiza al dar clic en el boton, el codigo se mostrara en la caja de texto debajo de cada seccion.
+        Al terminar de agregar los datos necesarios, se copia y se pega el codigo impreso. La pagina de mti agregara
+        automaticamente los estilos de letra y colores, por lo cual no son mostrados en esta web</p>
+    <section class="sectiona">
+        <h1>Aqui empieza la primera parte de la impresora, aqui imprimimos la tarjeta y la experiencia academica
+            solamente.</h1>
+        <div id="cvArea">
+            <div style="width: 90%; margin: 1rem auto; gap: 1rem; display: flex; flex-wrap: wrap;">
+                <div
+                    style="margin: auto; padding: 1rem; border-radius: 8px; background-color: rgba(24,52,92,0.1); flex: 1 0 320px; box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.50);">
+                    <div style="width: 60%; height: auto; margin: auto;">
+                        <img src="https://mti.cucea.udg.mx/sites/default/files/adjuntos/orizaga.png"
+                            style="width: 100%; height: auto; margin: auto; border-radius: 8px;" />
+                    </div>
+                    <h4 style="font-size: 1.5rem;">Contacto</h4>
+                    <ul style="margin: auto;">
+                        <li>jose.orizaga@academicos.udg.mx</li>
+                        <li><a href="https://www.linkedin.com/in/phdit-jaot-27900715/">LinkedIn</a></li>
+                        <li><a href="https://orcid.org/0000-0001-5649-5514">ORCID</a></li>
+                        <li>IEEE Miembro: 80390636 </li>
+                    </ul>
+
+                    <h4 style="font-size: 1.5rem;">Habilidades</h4>
+                    <ul style="margin: auto;">
+                        <li>Cloud Computing</li>
+                        <li>Infraestructure as a Service</li>
+                        <li>Security Systems</li>
+                        <li>Distributed Systems</li>
+                        <li>AI applied to Networks and Telecommunications</li>
+                    </ul>
                 </div>
-                <h4 style="font-size: 1.5rem;">Contacto</h4>
-                <ul style="margin: auto;">
-                    <li>jose.orizaga@academicos.udg.mx</li>
-                    <li><a href="https://www.linkedin.com/in/phdit-jaot-27900715/">LinkedIn</a></li>
-                    <li><a href="https://orcid.org/0000-0001-5649-5514">ORCID</a></li>
-                    <li>IEEE Miembro: 80390636 </li>
-                </ul>
 
-                <h4 style="font-size: 1.5rem;">Habilidades</h4>
-                <ul style="margin: auto;">
-                    <li>Cloud Computing</li>
-                    <li>Infraestructure as a Service</li>
-                    <li>Security Systems</li>
-                    <li>Distributed Systems</li>
-                    <li>AI applied to Networks and Telecommunications</li>
-                </ul>
-            </div>
-
-            <div style="width: 100%; height: auto; flex: 1 0 430px;">
-                <h3>Diseño e Implantacion de Tecnologías de Información</h3>
-                <h4 style="text-indent: 1rem;">Formación Académica:</h4>
-                <div>
-                    <p style="font-weight: bold; font-size: 1rem; font-family: 'Noticia Text',serif; margin-bottom: 0;">
-                        Título de Doctor en Tecnologías de Información</p>
-                    <p style="margin: 0; font-family: 'Open Sans','lucida grande',tahoma,verdana,arial,sans-serif;">
-                        Centro Universitario de Ciencias Económico Administrativas de la Universidad de Guadalajara
-                        <span style="font-size: 0.8rem;">[18 de mayo del 2012]</span></p>
-                    <p>Con la línea de investigación y tesis de grado en e-world bajo el tema “ADMINISTRATION ON TRAFFIC
-                        WI-FI AND WI-MAX WIRELESS NETWORKS WHIT EMPHASIS ON E- LEARNING PLATFORMS”.
-                        Cedula Profesional Federal: 10626822</p>
+                <div style="width: 100%; height: auto; flex: 1 0 430px;">
+                    <h3>Diseño e Implantacion de Tecnologías de Información</h3>
+                    <h4 style="text-indent: 1rem;">Formación Académica:</h4>
+                    <div>
+                        <p
+                            style="font-weight: bold; font-size: 1rem; font-family: 'Noticia Text',serif; margin-bottom: 0;">
+                            Título de Doctor en Tecnologías de Información</p>
+                        <p style="margin: 0; font-family: 'Open Sans','lucida grande',tahoma,verdana,arial,sans-serif;">
+                            Centro Universitario de Ciencias Económico Administrativas de la Universidad de Guadalajara
+                            <span style="font-size: 0.8rem;">[18 de mayo del 2012]</span>
+                        </p>
+                        <p>Con la línea de investigación y tesis de grado en e-world bajo el tema “ADMINISTRATION ON
+                            TRAFFIC
+                            WI-FI AND WI-MAX WIRELESS NETWORKS WHIT EMPHASIS ON E- LEARNING PLATFORMS”.
+                            Cedula Profesional Federal: 10626822</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
 
 
 
-    <section class="data">
-        <section>
-            <div class="a">
-                <div class="input">
-                    <label for="data__profilePic">Foto de perfil:</label>
-                    <input class="data__input" type="text"
-                        placeholder="https://mti.cucea.udg.mx/sites/default/files/adjuntos/orizaga.png"
-                        id="data__profilePic" autofocus>
-                </div>
-            </div>
-
-            <div class="b">
-                <div class="input">
-                    <label for="data__contactLiText">Contacto:</label>
-                    <input class="data__input" type="text" placeholder="Likedin" id="data__contactLiText" autofocus>
+        <section class="data">
+            <section>
+                <div class="a">
+                    <div class="input">
+                        <label for="data__profilePic">Foto de perfil:</label>
+                        <input class="data__input" type="text"
+                            placeholder="https://mti.cucea.udg.mx/sites/default/files/adjuntos/orizaga.png"
+                            id="data__profilePic" autofocus>
+                    </div>
                 </div>
 
-                <div class="input">
-                    <label for="data__contactLilink">Link:</label>
-                    <input class="data__input" type="text" placeholder="https://www.linkedin.com/in/vinsmake/"
-                        id="data__contactLilink" autofocus>
+                <div class="b">
+                    <div class="input">
+                        <label for="data__contactLiText">Contacto:</label>
+                        <input class="data__input" type="text" placeholder="Likedin" id="data__contactLiText" autofocus>
+                    </div>
+
+                    <div class="input">
+                        <label for="data__contactLilink">Link:</label>
+                        <input class="data__input" type="text" placeholder="https://www.linkedin.com/in/vinsmake/"
+                            id="data__contactLilink" autofocus>
+                    </div>
                 </div>
-            </div>
-            <div class="a">
-                <div class="input">
-                    <label for="data__habilidadesLi">Habilidades:</label>
-                    <input class="data__input" type="text" placeholder='Fullstack development' id="data__habilidadesLi"
-                        autofocus>
+                <div class="a">
+                    <div class="input">
+                        <label for="data__habilidadesLi">Habilidades:</label>
+                        <input class="data__input" type="text" placeholder='Fullstack development'
+                            id="data__habilidadesLi" autofocus>
+                    </div>
                 </div>
-            </div>
-            <div class="input">
-                <button class="data__button" id="data__button">Generar</button>
-            </div>
+                <div class="input">
+                    <button class="data__button" id="data__buttonCV">Generar</button>
+                </div>
+            </section>
+
+            <section>
+                <div class="a">
+                    <div class="input">
+                        <label for="formacion__lgac">LGAC:</label>
+                        <input class="data__input" type="text"
+                            placeholder='Diseño e Implantacion de Tecnologías de Información' id="formacion__lgac"
+                            autofocus>
+                    </div>
+                </div>
+
+                <div class="b">
+                    <div class="input">
+                        <label for="formacion__titulo">Titulo:</label>
+                        <input class="data__input" type="text"
+                            placeholder='Título de Doctor en Tecnologías de Información' id="formacion__titulo"
+                            autofocus>
+                    </div>
+                    <div class="input">
+                        <label for="formacion__dependencia">Dependencia:</label>
+                        <input class="data__input" type="text" placeholder='Universidad de Guadalajara'
+                            id="formacion__dependencia" autofocus>
+                    </div>
+                    <div class="input">
+                        <label for="formacion__fecha">Fecha:</label>
+                        <input class="data__input" type="text" placeholder='18 de mayo del 2012' id="formacion__fecha"
+                            autofocus>
+                    </div>
+                    <div class="input">
+                        <label for="formacion__informacion">Informacion:</label>
+                        <input class="data__input" type="text"
+                            placeholder='Con la línea de investigación y tesis de grado en e-world bajo el tema...'
+                            id="formacion__informacion" autofocus>
+                    </div>
+                </div>
+            </section>
         </section>
-
-        <section>
-            <div class="a">
-                <div class="input">
-                    <label for="formacion__lgac">LGAC:</label>
-                    <input class="data__input" type="text" placeholder='Diseño e Implantacion de Tecnologías de Información' id="formacion__lgac" autofocus>
-                </div>
-            </div>
-
-            <div class="b">
-                <div class="input">
-                    <label for="formacion__titulo">Titulo:</label>
-                    <input class="data__input" type="text" placeholder='Título de Doctor en Tecnologías de Información' id="formacion__titulo" autofocus>
-                </div>
-                <div class="input">
-                    <label for="formacion__dependencia">Dependencia:</label>
-                    <input class="data__input" type="text" placeholder='Universidad de Guadalajara' id="formacion__dependencia" autofocus>
-                </div>
-                <div class="input">
-                    <label for="formacion__fecha">Fecha:</label>
-                    <input class="data__input" type="text" placeholder='18 de mayo del 2012' id="formacion__fecha" autofocus>
-                </div>
-                <div class="input">
-                    <label for="formacion__informacion">Informacion:</label>
-                    <input class="data__input" type="text" placeholder='Con la línea de investigación y tesis de grado en e-world bajo el tema...' id="formacion__informacion" autofocus>
-                </div>
-            </div>
+        <section class="print">
+            <textarea class="printArea" name="printArea" id="printArea" cols="30" rows="10"></textarea>
         </section>
     </section>
-    <section class="print">
-        <textarea class="printArea" name="printArea" id="printArea" cols="30" rows="10">
 
-    </textarea>
+    <section>
+        <h1>Aqui empieza la segunda parte de la impresora, aqui se imprime cosas como certificaciones, experiencia y
+            publicaciones o patentes</h1>
 
+        <div id="expArea">
+            <div style="width: 90%; margin: 1rem auto; gap: 1rem; display: flex; flex-wrap: wrap;">
+
+                <div style="width: 100%; height: auto; flex: 1 0 320px;">
+                    <div style="border-bottom: 1px solid rgba(24,52,92,0.1); margin: 1rem auto;">
+                        <h4 style="text-indent: 1rem;">Cursos y certificaciones relevantes</h4>
+                        <li>Linux Networking and Troubleshooting, A Cloud Guru, 2023</li>
+
+                        <div style="border-bottom: 1px solid rgba(24,52,92,0.1); margin: 1rem auto;">
+                            <h4 style="text-indent: 1rem;">Experiencia Académica: </h4>
+
+                            <p style="font-weight: 700;">Profesor e Investigador Asociado C, adscrito al Departamento de
+                                Sistemas de Información en el Centro Universitario de Ciencias Económico
+                                Administrativas,
+                                Universidad de Guadalajara. </p>
+                            <li style="margin-left: 16px;"> Área de especialización en el campo de las
+                                Telecomunicaciones,
+                                Centros de Datos, Redes de Campus de Alta Velocidad y Seguridad en Tecnologías de
+                                Información. </li>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div
+                    style="width: 100%; height: auto; flex: 1 0 430px; border-left: 1px solid rgba(24,52,92,0.1); padding-left: 8px;">
+                    <h4 style="text-indent: 1rem;">Experiencia Profesional</h4>
+
+                    <div style="border-bottom: 1px solid rgba(24,52,92,0.1);">
+                        <p style="font-weight: 700;">Coordinador del Programa de la Maestría en Tecnologías de
+                            Información del Centro Universitario de Ciencias Económico Administrativas de la Universidad
+                            de Guadalajara.
+                            <span>1 de agosto de 2019 - Actualidad</span>
+                        </p>
+                        <li style="margin-left: 16px;">Responsable de la gestión administrativa y de investigación del
+                            programa.</li>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <section class="data">
+            <section name="left_data">
+                <div class="la">
+                    <div class="input">
+                        <label for="data__lencabezado">Encabezado Izquierdo</label>
+                        <input class="data__input" type="text" placeholder="Certificaciones" id="data__lencabezado"
+                            autofocus>
+                    </div>
+                </div>
+
+                <div class="lb">
+                    <div class="input">
+                        <label for="data__ltitulo">Titulo Izquierdo:</label>
+                        <input class="data__input" type="text" placeholder="Google Careers UX Designer"
+                            id="data__ltitulo" autofocus>
+                    </div>
+                </div>
+
+                <div class="lc">
+                    <div class="input">
+                        <label for="data__lli">Lista izquierdo:</label>
+                        <input class="data__input" type="text" placeholder="Figma for UX Designer" id="data__lli"
+                            autofocus>
+                    </div>
+                </div>
+
+
+                <div class="input">
+                    <button class="data__button" id="data__buttonExp">Generar</button>
+                </div>
+            </section>
+
+            <section name="right_data">
+                <div class="ra">
+                    <div class="input">
+                        <label for="data__rencabezado">Encabezado Derecho:</label>
+                        <input class="data__input" type="text"
+                            placeholder='Experiencia Profesional' id="data__rencabezado"
+                            autofocus>
+                    </div>
+                </div>
+
+                <div class="rb">
+                    <div class="input">
+                        <label for="data__rtitulo">Titulo Derecho:</label>
+                        <input class="data__input" type="text"
+                            placeholder='Coordinador del Programa de la Maestría en Tecnologías de Información' id="data__rtitulo"
+                            autofocus>
+                    </div>
+                </div>
+
+                <div class="rc">
+                    <div class="input">
+                        <label for="data__rli">Lista Derechi:</label>
+                        <input class="data__input" type="text" placeholder='Responsable de la gestión administrativa y de investigación del programa.'
+                            id="data__rli" autofocus>
+                    </div>
+                </div>
+
+
+            </section>
+        </section>
+        <section class="print">
+            <textarea class="printAreaExp" name="printAreaExp" id="printAreaExp" cols="30" rows="10"></textarea>
+        </section>
     </section>
     <script src="js/script.js"></script>
 </body>
