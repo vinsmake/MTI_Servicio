@@ -160,12 +160,6 @@ function printExp() {
         leftObject += `${lliObject}`
     };
 
-    if (lli.value != "") {
-        lliObject = `
-                <li style="margin-left: 16px;">${lli.value}</li>`
-        leftObject += `${lliObject}`
-    };
-
 
     //right conditional
     if (rencabezado.value != "") {
